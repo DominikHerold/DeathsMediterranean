@@ -1,4 +1,4 @@
-[Deaths in the Mediterranean](https://dominikherold.github.io/DeathsMediterranean/)
+[Deaths in the Mediterranean](https://www.mittelmeer-tote.de)
 
 Data is used from [International Organization for Migration (IOM)](https://missingmigrants.iom.int/)
 
