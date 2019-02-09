@@ -1,14 +1,14 @@
 function update(data) {
-	var item;
-	var deaths = 0;
-	for (i = data.length - 1; i >= 0; i--){
-		item = data[i];
-		if (item['Region of Incident'] == 'Mediterranean'){
-			deaths += parseInt(item['Total Dead and Missing']);
-		}
-	}
-	
-	var element = document.getElementById('this-year');
+    var item;
+    var deaths = 0;
+    for (i = data.length - 1; i >= 0; i--){
+        item = data[i];
+        if (item['Region of Incident'] == 'Mediterranean'){
+            deaths += parseInt(item['Total Dead and Missing']);
+        }
+    }
+    
+    var element = document.getElementById('this-year');
     element.innerHTML = deaths;
     element.className = deaths > 0 ? 'bad' : '';
 }
