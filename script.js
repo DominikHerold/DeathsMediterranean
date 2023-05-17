@@ -4,7 +4,7 @@ function update(data) {
     for (i = data.length - 1; i >= 0; i--){
         item = data[i];
         if (item['Region'] == 'Mediterranean' || item['Region of Incident'] == 'Mediterranean'){
-            deaths += parseInt(item['Total Dead and Missing']);
+            deaths += parseInt(item['total_dead_and_missing']);
         }
     }
     
