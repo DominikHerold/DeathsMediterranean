@@ -21,5 +21,5 @@ xhttp.onreadystatechange = function() {
         update(data);
     }
 };
-xhttp.open('GET', 'https://missingmigrants.iom.int/global-figures/2021/json', true);
+xhttp.open('GET', 'https://www.mittelmeer-tote.de/content.json', true);
 xhttp.send();
