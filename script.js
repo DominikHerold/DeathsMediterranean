@@ -3,7 +3,7 @@ function update(data) {
     var deaths = 0;
     for (i = data.length - 1; i >= 0; i--){
         item = data[i];
-        if (item['Region'] == 'Mediterranean' || item['Region of Incident'] == 'Mediterranean'){
+        if (item['region'] == 'Mediterranean' || item['Region of Incident'] == 'Mediterranean'){
             deaths += parseInt(item['total_dead_and_missing']);
         }
     }
